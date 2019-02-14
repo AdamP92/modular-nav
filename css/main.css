@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: sans-serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -24,4 +24,29 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+header {
+  background-color: #e2e2e2;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  text-align: left;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #0074d9;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
 }
